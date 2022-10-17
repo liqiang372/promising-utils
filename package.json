@@ -1,7 +1,13 @@
 {
   "name": "@liqiang372/p-utils",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "author": "liqiang372",
+  "license": "MIT",
   "description": "A utility library for promises, support both esm and commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqiang372/p-utils.git"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -18,11 +24,15 @@
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
-  "files": [
-    "dist/**/*"
+  "keywords": [
+    "promise",
+    "utils",
+    "commonjs",
+    "esm"
   ],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/jest": "^29.1.1",
     "jest": "^29.1.2",
