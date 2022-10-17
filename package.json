@@ -6,7 +6,7 @@
   "description": "A utility library for promises, support both esm and commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liqiang372/p-utils.git"
+    "url": "git+https://github.com/liqiang372/promising-utils.git"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
