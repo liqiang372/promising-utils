@@ -1,6 +1,11 @@
-# p-utils
+# promising-utils
 
 A utility library for promise, supports both commonjs and ESM
+
+```bash
+npm install promising-utils --save
+yarn add promising-utils
+```
 
 ### wait
 
